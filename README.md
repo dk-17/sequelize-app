@@ -1,0 +1,2 @@
+# sequelize-app
+Nodejs project
