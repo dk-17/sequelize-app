@@ -1,0 +1,22 @@
+{
+  "name": "sequelize-app",
+  "version": "1.0.0",
+  "description": "nodejs project",
+  "main": "index.js",
+  "author": "Divya-Kambaria <divya.kambaria@freshworks.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "eslint": "^8.15.0",
+    "express": "^4.18.1",
+    "mocha": "^10.0.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.16",
+    "sequelize": "^6.19.0",
+    "sequelize-cli": "^6.4.1"
+  }
+}

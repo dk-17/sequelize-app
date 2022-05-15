@@ -1,0 +1,76 @@
+{
+    "env": {
+        "es6": true,
+        "node": true,
+        "mocha": true
+      },
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/essential"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "plugins": [
+        "vue"
+    ],
+    "rules": {
+        "block-scoped-var": "error",
+        "strict": ["error", "global"],
+        "eqeqeq": "error",
+        "prefer-const": ["error", {"destructuring": "any"}],
+        "no-template-curly-in-string": "error",
+        "complexity": ["error", 5],
+        "no-compare-neg-zero": "error",
+        "no-cond-assign": "error",
+        "array-callback-return": ["error", { "allowImplicit": true }],
+        "no-empty": "error",
+        "no-irregular-whitespace": "error",
+        "no-unreachable": "error",
+        "no-else-return": "error",
+        "no-eq-null": "error",
+        "no-multi-spaces": "error",
+        "no-magic-numbers": ["error", {
+          "ignoreArrayIndexes": true,
+          "ignore": [-1, 0, 1, 2]
+        }],
+        "no-multi-str": "error",
+        "no-redeclare": "error",
+        "no-use-before-define": "error",
+        "no-unused-expressions": ["error", { "allowTernary": true }],
+        "no-useless-escape": "error",
+        "no-unused-vars": "error",
+        "new-cap": ["error", { "capIsNew": true, "newIsCap": true }],
+        "global-require": "error",
+        "handle-callback-err": "error",
+        "max-depth": ["error", 5],
+        "max-len": ["error", { "code": 100, "ignoreStrings": true, "ignoreTemplateLiterals": true, "ignoreComments": true }],
+        "max-nested-callbacks": ["error", 2],
+        "no-lonely-if": "error",
+        "no-dupe-args": "error",
+        "newline-after-var": ["error", "always"],
+        "no-nested-ternary": "error",
+        "no-unneeded-ternary": "error",
+        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+        "no-tabs": "error",
+        "no-mixed-spaces-and-tabs": "error",
+        "no-trailing-spaces": "error",
+        "no-underscore-dangle": "error",
+        "no-empty-pattern": "error",
+        "no-fallthrough": "error",
+        "no-global-assign": "warn",
+        "no-labels": "error",
+        "init-declarations": ["warn", "always"],
+        "comma-spacing": ["error", { "before": false, "after": true }],
+        "space-unary-ops": "warn",
+        "yoda": ["error", "never", { "exceptRange": true }],
+        "comma-dangle": "error",
+        "curly": ["error", "all"],
+        "no-inline-comments": "error",
+        "dot-notation": ["error", { "allowPattern": "^[a-z]+(_[a-z]+)+$" }],
+        "semi": ["error", "always"],
+        "no-console": "warn",
+        "keyword-spacing": ["error", { "before": true, "after": true }],
+        "quotes": ["error", "single"]
+      }
+}
