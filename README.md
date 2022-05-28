@@ -1,2 +1,2 @@
 # sequelize-app
-Nodejs project
+Nodejs project using sequelize ORM
